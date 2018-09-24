@@ -27,3 +27,7 @@ end
 get '/api/hostname' do
 	  Socket.gethostname
 end
+
+get   'user' do
+	 "listing all users "
+end
