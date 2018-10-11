@@ -27,4 +27,7 @@ end
 get '/api/hostname' do
 	  Socket.gethostname
 end
+get '/api/cpu' do
+          Socket.gethostname
+end
 
