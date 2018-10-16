@@ -1,4 +1,4 @@
 FROM ghost
-VOLUME ["/var/lib/ghot"]
+VOLUME ["/var/lib/ghost"]
 EXPOSE 2368
 CMD ["npm", "start"]
